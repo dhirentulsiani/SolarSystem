@@ -40,7 +40,7 @@ saturn = planet('sprites/sun/', 30, 2, 0.5, cpt.getInitPosition(6), cpt.getInitV
 uranus = planet('sprites/sun/', 30, 2, 0.5, cpt.getInitPosition(7), cpt.getInitVelocity(7), 4.364504776269482e-05, time)
 neptune = planet('sprites/sun/', 30, 2, 0.5, cpt.getInitPosition(8), cpt.getInitVelocity(8), 5.1483157365510307e-05, time)
 
-windows = planet('', 1, 1.3, 0.5, [-0.1780646549205903, -0.7138818025711587, 0.000615870147439354], [0.08147197548136475, -0.06044261397381249, -0.001192871221191632], 20.4469582704876823, time)
+windows = planet('', 1, 1.3, 0.5, [-0.1780646549205903, -0.7138818025711587, 0.000615870147439354], [0.08147197548136475, -0.06044261397381249, -0.001192871221191632], 500.4469582704876823, time)
 
 all_planets = [mercury, venus, earth, sun, mars, jupiter, saturn, neptune, moon, uranus]
 first_four_planets = [mercury, venus, earth, sun, mars]
